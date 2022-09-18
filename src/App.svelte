@@ -1,6 +1,7 @@
 <script>
     import Home from "./lib/pages/Home.svelte";
-	import { Router, Route } from "svelte-navigator";
+    import SignIn from "./lib/pages/SignIn.svelte";
+    import { Router, Route } from "svelte-navigator";
 
 </script>
 
@@ -10,6 +11,7 @@
             <Home/>
         </Route>
         <Route path="/sign-in">
+            <SignIn/>
         </Route>
     </div>
 </Router>

@@ -2,6 +2,6 @@
     export let bg;
 </script>
 
-<div class="h-screen w-100">
-    <img src={bg} alt="img" class="w-full h-5/6"/>
+<div class="w-100 h-[87vh] ">
+    <img src={bg} alt="img" class="w-full h-full"/>
 </div>

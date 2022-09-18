@@ -1,8 +1,15 @@
 <script>
-    import Main from "./lib/main/main.svelte";
-import Nav from "./lib/navbar/nav.svelte";
+    import Home from "./lib/pages/Home.svelte";
+	import { Router, Route } from "svelte-navigator";
+
 </script>
 
-
-<Nav/>
-<Main/>
+<Router>
+	<div>
+        <Route path="/">
+            <Home/>
+        </Route>
+        <Route path="/sign-in">
+        </Route>
+    </div>
+</Router>
